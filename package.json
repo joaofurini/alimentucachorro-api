@@ -1,0 +1,21 @@
+{
+  "name": "alimentucachorro-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joaofurini/alimentucachorro-api.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
