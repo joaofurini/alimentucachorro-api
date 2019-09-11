@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    container_name: "alimentucatioro"
+    build: .
+    ports:
+      - "1000:1000"
+    volumes:
+      - .:/usr/app
